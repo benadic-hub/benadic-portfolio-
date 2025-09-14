@@ -3,528 +3,391 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>S J BENADIC AMALAN - Visionary Tech Entrepreneur</title>
+    <title>S J BENADIC AMALAN - Global Innovation Pioneer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <canvas id="particle-canvas"></canvas>
     
-    <!-- Floating Navigation -->
-    <nav class="floating-nav">
-        <a href="#hero" class="nav-item active" data-section="hero">
-            <span class="nav-icon">👤</span>
-            <span class="nav-label">Profile</span>
-        </a>
-        <a href="#mission" class="nav-item" data-section="mission">
-            <span class="nav-icon">🎯</span>
-            <span class="nav-label">Mission</span>
-        </a>
-        <a href="#timeline" class="nav-item" data-section="timeline">
-            <span class="nav-icon">🚀</span>
-            <span class="nav-label">Journey</span>
-        </a>
-        <a href="#skills" class="nav-item" data-section="skills">
-            <span class="nav-icon">⚡</span>
-            <span class="nav-label">Skills</span>
-        </a>
-        <a href="#contact" class="nav-item" data-section="contact">
-            <span class="nav-icon">📡</span>
-            <span class="nav-label">Contact</span>
-        </a>
+    <!-- Top Navigation -->
+    <nav class="top-navigation">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="gradient-text">SJ</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#hero" class="nav-item" data-section="hero">
+                    <span class="nav-icon">👤</span>
+                    <span class="nav-label">Profile</span>
+                </a>
+                <a href="#story" class="nav-item" data-section="story">
+                    <span class="nav-icon">📚</span>
+                    <span class="nav-label">Story</span>
+                </a>
+                <a href="#mission" class="nav-item" data-section="mission">
+                    <span class="nav-icon">🌍</span>
+                    <span class="nav-label">Mission</span>
+                </a>
+                <a href="#philosophy" class="nav-item" data-section="philosophy">
+                    <span class="nav-icon">🌱</span>
+                    <span class="nav-label">Philosophy</span>
+                </a>
+                <a href="#journey" class="nav-item" data-section="journey">
+                    <span class="nav-icon">🚀</span>
+                    <span class="nav-label">Journey</span>
+                </a>
+                <a href="#company" class="nav-item" data-section="company">
+                    <span class="nav-icon">⚡</span>
+                    <span class="nav-label">Company</span>
+                </a>
+                <a href="#expertise" class="nav-item" data-section="expertise">
+                    <span class="nav-icon">🔬</span>
+                    <span class="nav-label">Expertise</span>
+                </a>
+                <a href="#academic" class="nav-item" data-section="academic">
+                    <span class="nav-icon">🎓</span>
+                    <span class="nav-label">Academic</span>
+                </a>
+                <a href="#skills" class="nav-item" data-section="skills">
+                    <span class="nav-icon">💪</span>
+                    <span class="nav-label">Skills</span>
+                </a>
+                <a href="#contact" class="nav-item" data-section="contact">
+                    <span class="nav-icon">📞</span>
+                    <span class="nav-label">Contact</span>
+                </a>
+                <a href="#assistant" class="nav-item" data-section="assistant">
+                    <span class="nav-icon">🤖</span>
+                    <span class="nav-label">AI Assistant</span>
+                </a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
     </nav>
 
     <div class="container">
-        <!-- Hero Section -->
-        <section id="hero" class="hero-section">
+        <!-- 1. Hero Section -->
+        <header id="hero" class="hero-section">
+            <div class="hero-background"></div>
             <div class="hero-content">
-                <div class="profile-avatar">
-                    <div class="avatar-ring"></div>
-                    <div class="avatar-core">
-                        <div class="avatar-placeholder">SJB</div>
+                <div class="profile-container">
+                    <div class="profile-image-wrapper">
+                        <div class="profile-image">
+                            <div class="avatar-placeholder">SJ</div>
+                        </div>
                     </div>
-                    <div class="status-indicator"></div>
+                    <h1 class="hero-title gradient-text">S J BENADIC AMALAN</h1>
+                    <p class="hero-subtitle">Global Innovation Pioneer & Technology Entrepreneur</p>
+                    <p class="hero-tagline">Bridging the 30-50 Year Technology Gap</p>
                 </div>
-                <h1 class="hero-title">
-                    <span class="title-line">S J BENADIC AMALAN</span>
-                    <span class="title-subtitle">Visionary Tech Entrepreneur</span>
-                </h1>
-                <p class="hero-tagline">Global Innovation Pioneer</p>
+            </div>
+        </header>
+
+        <!-- 2. Story Overview (MAIN FOCUS) -->
+        <section id="story" class="section-card story-section">
+            <div class="section-header">
+                <div class="section-icon">📚</div>
+                <h2 class="section-title">Story Overview</h2>
+            </div>
+            <div class="story-content">
+                <p class="story-opening">From a college entrepreneur with big dreams to a global innovation pioneer leading technological transformation</p>
                 
-                <!-- Key Stats -->
-                <div class="stats-grid">
-                    <div class="stat-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="story-phases">
+                    <div class="story-phase">
+                        <div class="phase-marker">2015</div>
+                        <div class="phase-content">
+                            <h3>Early Entrepreneurship</h3>
+                            <p>While still in college, I launched my first venture 'Offer Zone 360' - an e-commerce platform selling branded surplus men's apparel at discounted prices. This wasn't just a business; it was my introduction to the real world of commerce, teaching me invaluable lessons about market dynamics, customer psychology, and the critical importance of timing in business.</p>
+                        </div>
+                    </div>
+                    <div class="story-phase">
+                        <div class="phase-marker">2019-2023</div>
+                        <div class="phase-content">
+                            <h3>Strategic Skill Building</h3>
+                            <p>After completing my Bachelor's in Electronics and Communication Engineering from Jeppiaar Engineering College, I embarked on a carefully planned freelance career. This wasn't random job-hopping - it was strategic skill acquisition. I deliberately progressed from UI/UX Designer to Full-Stack Developer, then to Digital Marketing Specialist, and finally to Business Analyst. Each role built upon the previous, creating a comprehensive foundation for digital entrepreneurship.</p>
+                        </div>
+                    </div>
+                    <div class="story-phase">
+                        <div class="phase-marker">Discovery</div>
+                        <div class="phase-content">
+                            <h3>Global Research & Discovery</h3>
+                            <p>The turning point came during my solo international research expeditions. I traveled across 9 countries - Dubai, Singapore, Malaysia, Thailand, Sri Lanka, Sharjah, Bahrain, and made three intensive visits to China's Canton Fair. What I discovered changed everything. I witnessed firsthand a staggering 30-50 year technology gap between China and other developing nations, including my home country. This wasn't just an observation - it was a revelation that would define my life's mission.</p>
+                        </div>
+                    </div>
+                    <div class="story-phase">
+                        <div class="phase-marker">Strategy</div>
+                        <div class="phase-content">
+                            <h3>The Tech-First Strategy</h3>
+                            <p>I realized that mastering technology first would enable me to implement cutting-edge insights across traditional industries like hydroponics, cosmetics, FMCG products, and cool drinks. Technology isn't just my business - it's my gateway to revolutionizing every sector I touch.</p>
+                        </div>
+                    </div>
+                    <div class="story-phase">
+                        <div class="phase-marker">Present</div>
+                        <div class="phase-content">
+                            <h3>Current Mission</h3>
+                            <p>Today, I lead Cossmicrings Solutions Private Limited with a team of 15 professionals, focusing on AI, blockchain, IoT, and NFC technologies. We're not just building products - we're architecting the future, with our first NFC product launching in just 100 days.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Story Stats -->
+                <div class="story-stats">
+                    <div class="story-stat">
                         <div class="stat-icon">🌏</div>
-                        <div class="stat-number" data-target="9">0</div>
+                        <div class="stat-value" data-target="9">0</div>
                         <div class="stat-label">Countries Researched</div>
                     </div>
-                    <div class="stat-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="story-stat">
                         <div class="stat-icon">👥</div>
-                        <div class="stat-number" data-target="15">0</div>
+                        <div class="stat-value" data-target="15">0</div>
                         <div class="stat-label">Team Members</div>
                     </div>
-                    <div class="stat-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="stat-icon">⏱️</div>
-                        <div class="stat-number" data-target="100">0</div>
+                    <div class="story-stat">
+                        <div class="stat-icon">🚀</div>
+                        <div class="stat-value" data-target="100">0</div>
                         <div class="stat-label">Days to Launch</div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Mission Statement -->
-        <section id="mission" class="mission-section">
+        <!-- 3. Mission Statement -->
+        <section id="mission" class="section-card">
             <div class="section-header">
-                <h2 class="section-title">
-                    <span class="title-icon">🎯</span>
-                    Mission Statement
-                </h2>
+                <div class="section-icon">🌍</div>
+                <h2 class="section-title">Mission Statement</h2>
             </div>
-            
-            <div class="mission-card">
-                <div class="mission-highlight">
-                    <div class="highlight-badge">Primary Objective</div>
-                    <h3>Bridging the Technology Gap</h3>
-                    <p>Dedicated to bridging the 30-50 year technology gap between China and India through strategic innovation, comprehensive research, and cutting-edge solutions that drive global technological advancement.</p>
-                </div>
-                
-                <div class="achievement-badges">
-                    <div class="badge">
-                        <span class="badge-icon">🔬</span>
-                        <span class="badge-text">Innovation Research</span>
-                    </div>
-                    <div class="badge">
-                        <span class="badge-icon">🌐</span>
-                        <span class="badge-text">Global Expansion</span>
-                    </div>
-                    <div class="badge">
-                        <span class="badge-icon">⚡</span>
-                        <span class="badge-text">Tech Leadership</span>
-                    </div>
-                </div>
+            <p class="mission-statement">
+                Dedicated to bridging the 30-50 year technology gap between China and developing nations through strategic innovation, 
+                comprehensive research, and cutting-edge solutions that drive global technological advancement and sustainable growth.
+            </p>
+        </section>
+
+        <!-- 4. Core Philosophy -->
+        <section id="philosophy" class="section-card">
+            <div class="section-header">
+                <div class="section-icon">🌱</div>
+                <h2 class="section-title">Core Philosophy</h2>
+            </div>
+            <div class="philosophy-content">
+                <blockquote class="green-quote">
+                    "My heart doesn't accept using chemical products. If I'm planning to launch, I'll go green and natural. There are many obstacles in it, but I'll overcome them one day."
+                </blockquote>
+                <p class="philosophy-text">This green philosophy guides every business decision I make, ensuring that innovation comes with environmental responsibility and sustainable practices at its core.</p>
             </div>
         </section>
 
-        <!-- Professional Timeline -->
-        <section id="timeline" class="timeline-section">
+        <!-- 5. Professional Journey -->
+        <section id="journey" class="section-card">
             <div class="section-header">
-                <h2 class="section-title">
-                    <span class="title-icon">🚀</span>
-                    Professional Journey
-                </h2>
+                <div class="section-icon">🚀</div>
+                <h2 class="section-title">Professional Journey</h2>
             </div>
-            
-            <div class="timeline-container">
-                <div class="timeline-line"></div>
-                
-                <div class="timeline-item" data-aos="fade-right">
-                    <div class="timeline-marker">
-                        <span class="marker-icon">💼</span>
-                    </div>
-                    <div class="timeline-card">
-                        <div class="timeline-date">2015</div>
+            <div class="journey-timeline">
+                <div class="journey-item">
+                    <div class="year-badge">2015</div>
+                    <div class="journey-content">
                         <h3>Offer Zone 360</h3>
-                        <div class="timeline-type">Early Venture</div>
-                        <p>E-commerce platform for branded surplus men's apparel at discounted prices</p>
-                        <div class="timeline-achievement">
-                            <span class="achievement-label">Achievement:</span>
-                            <span class="achievement-text">First Business Venture</span>
-                        </div>
+                        <p>Launched e-commerce platform specializing in branded surplus men's apparel, establishing foundation in digital commerce and learning crucial lessons about market dynamics and customer psychology.</p>
                     </div>
                 </div>
-                
-                <div class="timeline-item" data-aos="fade-left">
-                    <div class="timeline-marker">
-                        <span class="marker-icon">🚀</span>
-                    </div>
-                    <div class="timeline-card">
-                        <div class="timeline-date">2019-2023</div>
-                        <h3>Freelance Odyssey</h3>
-                        <div class="timeline-type">Skill Development</div>
-                        <p>Strategic acquisition of comprehensive digital skills</p>
-                        <div class="progression-list">
-                            <div class="progression-item">UI/UX Designer</div>
-                            <div class="progression-item">Full-Stack Developer</div>
-                            <div class="progression-item">Digital Marketing Specialist</div>
-                            <div class="progression-item">Business Analyst</div>
-                        </div>
-                        <div class="timeline-achievement">
-                            <span class="achievement-label">Achievement:</span>
-                            <span class="achievement-text">Multidisciplinary Expertise</span>
-                        </div>
+                <div class="journey-item">
+                    <div class="year-badge">2019-2023</div>
+                    <div class="journey-content">
+                        <h3>Freelance Career Evolution</h3>
+                        <p>Strategic progression through roles: UI/UX Designer → Full-Stack Developer → Digital Marketing Specialist → Business Analyst. Each role carefully chosen to build comprehensive digital entrepreneurship foundation.</p>
                     </div>
                 </div>
-                
-                <div class="timeline-item" data-aos="fade-right">
-                    <div class="timeline-marker">
-                        <span class="marker-icon">🌏</span>
-                    </div>
-                    <div class="timeline-card">
-                        <div class="timeline-date">2019-2023</div>
-                        <h3>Global Research</h3>
-                        <div class="timeline-type">Market Intelligence</div>
-                        <p>Solo international expeditions across 9 countries</p>
-                        <div class="locations-grid">
-                            <span class="location">Dubai</span>
-                            <span class="location">Singapore</span>
-                            <span class="location">Malaysia</span>
-                            <span class="location">Thailand</span>
-                            <span class="location">Sri Lanka</span>
-                            <span class="location">Sharjah</span>
-                            <span class="location">Bahrain</span>
-                            <span class="location">China</span>
-                        </div>
-                        <div class="timeline-achievement">
-                            <span class="achievement-label">Achievement:</span>
-                            <span class="achievement-text">Technology Gap Discovery</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="timeline-item" data-aos="fade-left">
-                    <div class="timeline-marker">
-                        <span class="marker-icon">⚡</span>
-                    </div>
-                    <div class="timeline-card">
-                        <div class="timeline-date">2024</div>
-                        <h3>Cossmicrings Solutions</h3>
-                        <div class="timeline-type">Company Foundation</div>
-                        <p>Innovation hub focused on AI, blockchain, IoT, and NFC technologies</p>
-                        <div class="company-divisions">
-                            <div class="division">
-                                <span class="division-icon">📈</span>
-                                <span class="division-name">Upbrando</span>
-                                <span class="division-type">Brand Strategy</span>
-                            </div>
-                            <div class="division">
-                                <span class="division-icon">🤖</span>
-                                <span class="division-name">Jeff AI</span>
-                                <span class="division-type">AI Solutions</span>
-                            </div>
-                        </div>
-                        <div class="timeline-achievement">
-                            <span class="achievement-label">Achievement:</span>
-                            <span class="achievement-text">15-Member Team</span>
-                        </div>
+                <div class="journey-item">
+                    <div class="year-badge">2023+</div>
+                    <div class="journey-content">
+                        <h3>International Research Expeditions</h3>
+                        <p>Conducted extensive research across 9 countries including Dubai, Singapore, Malaysia, Thailand, China, and others. Three intensive visits to China's Canton Fair revealed the transformative technology gap discovery.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Skills Matrix -->
-        <section id="skills" class="skills-section">
+        <!-- 6. Company Ecosystem -->
+        <section id="company" class="section-card">
             <div class="section-header">
-                <h2 class="section-title">
-                    <span class="title-icon">⚡</span>
-                    Skills Matrix
-                </h2>
+                <div class="section-icon">⚡</div>
+                <h2 class="section-title">Company Ecosystem</h2>
             </div>
-            
-            <div class="skills-grid">
-                <div class="skill-category" data-aos="fade-up">
-                    <h3 class="category-title">
-                        <span class="category-icon">💻</span>
-                        Technical Skills
-                    </h3>
-                    <div class="skill-bars">
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span class="skill-name">SAP FICO</span>
-                                <span class="skill-percent">90%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-fill" data-width="90"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span class="skill-name">SAP HCM</span>
-                                <span class="skill-percent">85%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-fill" data-width="85"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span class="skill-name">Microsoft BI</span>
-                                <span class="skill-percent">88%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-fill" data-width="88"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span class="skill-name">Java</span>
-                                <span class="skill-percent">82%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-fill" data-width="82"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span class="skill-name">C/C++</span>
-                                <span class="skill-percent">80%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-fill" data-width="80"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span class="skill-name">SQL</span>
-                                <span class="skill-percent">85%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-fill" data-width="85"></div>
-                            </div>
-                        </div>
+            <div class="company-grid">
+                <div class="company-main">
+                    <h3 class="gradient-text">Cossmicrings Solutions Private Limited</h3>
+                    <p>Leading technology company with 15 dedicated team members, specializing in AI, blockchain, IoT, and NFC technologies. Currently developing our first NFC product with a 100-day launch timeline.</p>
+                </div>
+                <div class="subsidiaries">
+                    <div class="subsidiary-card">
+                        <h4>Upbrando</h4>
+                        <p>Brand Strategy Division</p>
                     </div>
-                </div>
-
-                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
-                    <h3 class="category-title">
-                        <span class="category-icon">📈</span>
-                        Digital Marketing
-                    </h3>
-                    <div class="skill-bars">
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span class="skill-name">Meta Business</span>
-                                <span class="skill-percent">95%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-fill" data-width="95"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span class="skill-name">Google Ads</span>
-                                <span class="skill-percent">92%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-fill" data-width="92"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span class="skill-name">WordPress</span>
-                                <span class="skill-percent">88%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-fill" data-width="88"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span class="skill-name">SEO</span>
-                                <span class="skill-percent">90%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-fill" data-width="90"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span class="skill-name">SEM</span>
-                                <span class="skill-percent">87%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-fill" data-width="87"></div>
-                            </div>
-                        </div>
+                    <div class="subsidiary-card">
+                        <h4>Jeff AI</h4>
+                        <p>Artificial Intelligence Division</p>
                     </div>
-                </div>
-
-                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
-                    <h3 class="category-title">
-                        <span class="category-icon">🎯</span>
-                        Business Skills
-                    </h3>
-                    <div class="skill-bars">
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span class="skill-name">Market Analysis</span>
-                                <span class="skill-percent">93%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-fill" data-width="93"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span class="skill-name">Strategic Planning</span>
-                                <span class="skill-percent">95%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-fill" data-width="95"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span class="skill-name">Financial Modeling</span>
-                                <span class="skill-percent">85%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-fill" data-width="85"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span class="skill-name">International Business</span>
-                                <span class="skill-percent">90%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-fill" data-width="90"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
-                    <h3 class="category-title">
-                        <span class="category-icon">🎨</span>
-                        Creative Skills
-                    </h3>
-                    <div class="skill-bars">
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span class="skill-name">Video Editing</span>
-                                <span class="skill-percent">88%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-fill" data-width="88"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span class="skill-name">Design Thinking</span>
-                                <span class="skill-percent">92%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-fill" data-width="92"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span class="skill-name">PowerPoint</span>
-                                <span class="skill-percent">95%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-fill" data-width="95"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span class="skill-name">Excel</span>
-                                <span class="skill-percent">90%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-fill" data-width="90"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Expertise Highlights -->
-            <div class="expertise-grid">
-                <div class="expertise-card" data-aos="zoom-in">
-                    <div class="expertise-icon">🔬</div>
-                    <h4>Global Innovation Research</h4>
-                    <p class="expertise-period">2019-2023</p>
-                    <p>Deep market intelligence gathering through repeated Canton Fair visits</p>
-                </div>
-                
-                <div class="expertise-card" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="expertise-icon">🌱</div>
-                    <h4>Hydroponic Innovation</h4>
-                    <p class="expertise-period">IHT Delhi - 2022</p>
-                    <p>Specialized training in sustainable agriculture technology</p>
-                </div>
-                
-                <div class="expertise-card" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="expertise-icon">⚗️</div>
-                    <h4>Cosmetic Chemistry</h4>
-                    <p class="expertise-period">Ongoing</p>
-                    <p>Natural product formulation integrated with hydroponics expertise</p>
                 </div>
             </div>
         </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="contact-section">
+        <!-- 7. Multidisciplinary Expertise -->
+        <section id="expertise" class="section-card">
             <div class="section-header">
-                <h2 class="section-title">
-                    <span class="title-icon">📡</span>
-                    Contact Information
-                </h2>
+                <div class="section-icon">🔬</div>
+                <h2 class="section-title">Multidisciplinary Expertise</h2>
             </div>
-            
-            <div class="contact-card">
-                <div class="contact-grid">
-                    <div class="contact-item" data-aos="fade-up">
-                        <div class="contact-icon">📍</div>
-                        <h4>Address</h4>
-                        <p>17/8 Sagayamatha St, Ganaolivupuram<br>Madurai 625016</p>
-                    </div>
-                    
-                    <div class="contact-item" data-aos="fade-up" data-aos-delay="100">
-                        <div class="contact-icon">📱</div>
-                        <h4>Phone</h4>
-                        <p><a href="tel:+919597959015">+91-95979 59015</a></p>
-                    </div>
-                    
-                    <div class="contact-item" data-aos="fade-up" data-aos-delay="200">
-                        <div class="contact-icon">✉️</div>
-                        <h4>Email</h4>
-                        <p><a href="mailto:sjbennyamalan@gmail.com">sjbennyamalan@gmail.com</a></p>
-                    </div>
-                    
-                    <div class="contact-item" data-aos="fade-up" data-aos-delay="300">
-                        <div class="contact-icon">🔗</div>
-                        <h4>LinkedIn</h4>
-                        <p><a href="https://linkedin.com/in/benadic-amalan-79275410" target="_blank">linkedin.com/in/benadic-amalan-79275410</a></p>
-                    </div>
+            <div class="portfolio-areas">
+                <div class="portfolio-item">
+                    <h3>Research & Innovation</h3>
+                    <p>Advanced technology research and gap analysis across international markets with focus on bridging global technological disparities</p>
                 </div>
-                
-                <!-- AI Assistant -->
-                <div class="ai-assistant-section" data-aos="fade-up" data-aos-delay="400">
-                    <h3>
-                        <span class="ai-icon">🤖</span>
-                        AI Portfolio Assistant
-                    </h3>
-                    <p>Ask me anything about S J Benadic Amalan's background, experience, or projects:</p>
-                    
-                    <div class="assistant-interface">
-                        <textarea id="user-question" placeholder="Type your question here..." rows="3"></textarea>
-                        <button id="ask-button" class="btn btn--primary">
-                            <span class="btn-icon">🚀</span>
-                            Ask Assistant
-                        </button>
+                <div class="portfolio-item">
+                    <h3>Hydroponics Systems</h3>
+                    <p>Sustainable agriculture solutions and smart farming technologies integrated with IoT and AI systems</p>
+                </div>
+                <div class="portfolio-item">
+                    <h3>Cosmetic Chemistry</h3>
+                    <p>Innovative natural formulations and beauty technology development with green chemistry principles</p>
+                </div>
+                <div class="portfolio-item">
+                    <h3>FMCG Manufacturing</h3>
+                    <p>Comprehensive training in FMCG product manufacturing including cool drinks and consumer goods with focus on natural ingredients</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. Academic Background -->
+        <section id="academic" class="section-card">
+            <div class="section-header">
+                <div class="section-icon">🎓</div>
+                <h2 class="section-title">Academic Background</h2>
+            </div>
+            <div class="academic-grid">
+                <div class="academic-item">
+                    <h3>Bachelor's Degree</h3>
+                    <p>Electronics & Communication Engineering</p>
+                    <span class="institution">Jeppiaar Engineering College</span>
+                    <div class="academic-details">Strong foundation in electronics, communication systems, and engineering principles that form the technical backbone of my technology ventures.</div>
+                </div>
+                <div class="academic-item">
+                    <h3>Master's Degree</h3>
+                    <p>MBA in Business Analytics</p>
+                    <span class="institution">Specialized Business Education</span>
+                    <div class="academic-details">Advanced expertise in data-driven strategic decision making, combining business acumen with analytical rigor for technology entrepreneurship.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. Professional Capabilities -->
+        <section id="skills" class="section-card">
+            <div class="section-header">
+                <div class="section-icon">💪</div>
+                <h2 class="section-title">Professional Capabilities</h2>
+            </div>
+            <div class="skills-table">
+                <div class="skill-category">
+                    <h4>Technical Systems</h4>
+                    <p>SAP FICO, SAP HCM, Microsoft BI, IBM Cognos, Java, C/C++, SQL, Database Management</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Digital Marketing</h4>
+                    <p>Meta Business, Google Ads, WordPress, SEO, SEM, Content Strategy, Social Media Management</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Business Analytics</h4>
+                    <p>Financial Analysis, Investment Analysis, Risk Management, Market Research, Strategic Planning, Data Analytics</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Operations Management</h4>
+                    <p>Project Management, Supply Chain Management, Quality Control, Process Optimization, Team Leadership</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Innovation & Strategy</h4>
+                    <p>Innovation Management, Green Manufacturing, Technology Assessment, International Business, Strategic Leadership</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Creative & Communication</h4>
+                    <p>Video Editing, Design Thinking, PowerPoint, Excel, Presentation Skills, Technical Writing</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Languages</h4>
+                    <p>Tamil (Native), English (Professional), Malayalam (Conversational), Hindi (Conversational)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quantitative Metrics -->
+        <section class="section-card">
+            <h2 class="section-title">Quantitative Metrics</h2>
+            <div class="metrics-grid">
+                <div class="metric-item">
+                    <div class="metric-number" data-target="9">0</div>
+                    <div class="metric-label">Countries Researched</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-number" data-target="15">0</div>
+                    <div class="metric-label">Team Members</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-number" data-target="100">0</div>
+                    <div class="metric-label">Days to Launch</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-number" data-target="30">0</div>
+                    <div class="metric-label">Year Tech Gap Identified</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. Contact Information -->
+        <section id="contact" class="section-card">
+            <div class="section-header">
+                <div class="section-icon">📞</div>
+                <h2 class="section-title">Contact Information</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <h4>Phone</h4>
+                    <p><a href="tel:+919597959015">+91-95979 59015</a></p>
+                </div>
+                <div class="contact-item">
+                    <h4>Email</h4>
+                    <p><a href="mailto:sjbennyamalan@gmail.com">sjbennyamalan@gmail.com</a></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 11. AI Portfolio Assistant -->
+        <section id="assistant" class="section-card">
+            <div class="section-header">
+                <div class="section-icon">🤖</div>
+                <h2 class="section-title">AI Portfolio Assistant</h2>
+            </div>
+            <div class="ai-assistant">
+                <p>Ask me anything about S J Benadic Amalan's background, experience, or projects:</p>
+                <div class="assistant-interface">
+                    <textarea id="user-question" placeholder="Type your question here..." rows="3"></textarea>
+                    <button id="ask-button" class="btn btn--primary">Ask Assistant</button>
+                </div>
+                <div id="assistant-response" class="assistant-response hidden">
+                    <div class="loading" id="loading">
+                        <div class="spinner"></div>
+                        <span>Thinking...</span>
                     </div>
-                    
-                    <div id="assistant-response" class="assistant-response hidden">
-                        <div class="loading" id="loading">
-                            <div class="spinner"></div>
-                            <span>Analyzing your question...</span>
-                        </div>
-                        <div id="response-text" class="response-text hidden"></div>
-                    </div>
+                    <div id="response-text" class="response-text hidden"></div>
                 </div>
             </div>
         </section>
     </div>
-
-    <!-- Scroll to Top Button -->
-    <button id="scroll-top" class="scroll-top-btn">
-        <span>↑</span>
-    </button>
-
     <script src="app.js"></script>
 </body>
 </html>
